@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 int main() {
+    int soma = 0;
     
-    int numero1 = 5;
-    int numero2 = 10;
-    int resultado = numero1 + numero2;
-
-    printf("A soma de %d e %d e: %d\n", numero1, numero2, resultado);
-
+    for (int i = 1; i <= 100; i++) {
+        soma += i;
+    }
+    
+    printf("A soma dos números de 1 a 100 é: %d\n", soma);
+    
     return 0;
 }
+
