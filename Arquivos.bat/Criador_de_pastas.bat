@@ -3,54 +3,39 @@ chcp 65001
 @echo off
 
 cd Desktop
-mkdir Criador_de_pastas
-cd Criador_de_pastas
-mkdir Fundamentos Classes Forms Utils Arquivos
-cd Fundamentos
-type nul > ola.py
-type nul > constantes.py
-
-mkdir Decisão
-cd Decisão
-type nul > aprova.py
-type nul > temp.py
+mkdir Empresa
+cd Empresa
+mkdir "Recursos Humanos"  Financeiro Ti Vendas Marketing
+cd recusros\ humanos/
+mkdir Contratações Treinamento Registros
+cd Contratações
+touch formulários.xlsx documentos.txt
 cd ..
-
-mkdir Repetição
-cd Repetição
-type nul > num.py
-type nul > par.py
+cd Treinamento
+touch programas.txt materiais.txt
 cd ..
+cd Registros
+touch "Folha de pagamento" "Avaliações de desempenho"
+cd..
+cd..
+cd Financeiro
+mkdir Contabiidade Orçamentos
 cd ..
-
-cd Classes
-type nul > carro.py
-mkdir Interfaces
-cd Interfaces
-type nul > liga.py
+cd Ti
+mkdir Infraestrutura Desenvolvimento Suporte
+cd Infraestrutura
+touch Servidores.txt Redes.txt
 cd ..
-mkdir Heranca
-cd Heranca
-type nul > gm.py
+cd Desenvolvimento
+touch Projetos.txt Codigos.txt
 cd ..
-mkdir Enums
-cd Enums
-type nul > Combustível.py
+cd Suporte
+touch Chamadas.txt Documentação.txt
 cd ..
 cd ..
-
-cd Forms 
-type nul > Cadastro.py
-type nul > Lista.py
+cd Vendas
+touch Clientes.txt Propostas.txt
 cd ..
-cd ..
-
-cd Utils
-type nul > data.py
-cd ..
- 
-cd Arquivos
-for /l %%i in (1,1,1000000) do (
-    echo. > arquivo%%i.txt
-)
+cd Marketing
+touch Campanhas.txt Materiais.txt
 
