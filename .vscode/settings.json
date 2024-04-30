@@ -3,6 +3,7 @@
     "files.associations": {
         "stdio.h": "c",
         "Conversor_F-C.C": "cpp",
-        "Conversor_F_C.C": "cpp"
+        "Conversor_F_C.C": "cpp",
+        "vetores6": "c"
     }
 }

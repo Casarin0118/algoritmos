@@ -11,7 +11,7 @@ int main()
 
      for (int z = 0; z < 3; z++)
     {
-        printf("\n Digite a nota e: %.2f \n", notas[z]);
+        printf("\n a nota e: %.2f \n", notas[z]);
         
     }
     return 0;
