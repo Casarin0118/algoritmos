@@ -6,6 +6,10 @@ int main()
     float soma = 0, maior = 0;
     float media, menor = 0;
     float numero2;
+    int sim = 0;
+
+
+
     for (int i = 0; i < 10; i++)
     {
         printf("\n Digite o numero:\n");
@@ -25,24 +29,26 @@ int main()
 
     for (int z = 0; z < 10; z++)
     { 
-        do
-        { 
-            if (numero2 == numeros[z])
-            {
-                printf("\n este numero esta aqui \n");
-            }
-            else
-            {
-                printf("\n este numero nao esta aqui \n");
-            }
-                    
-        } while (numeros[z] == numeros [10]);
+        if (numeros[z] == numero2)
+        {
+            sim = 1;
+        }
+        
  
         if (numeros[z] > maior)
         {
             maior = numeros[z];
         }
     }
+
+    if (sim = 1)
+    {
+        printf("\n este numero existe");
+
+    } else{
+        printf("\n este numero não existe");
+    }
+    
     
     printf("\n A media e = %.2f", media);
     printf("\n O maior numero e = %.2f", maior);
