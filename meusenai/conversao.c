@@ -14,20 +14,16 @@ int main() {
     scanf(" %c", &escolha);
 
     if (escolha == 'R' || escolha == 'r') {
-
-        // Converter real para dólar
         float valorEmDolar = valor / taxaCambio;
         printf("%.2f reais equivalem a %.2f dolares.\n", valor, valorEmDolar);
 
 
     } else if (escolha == 'D' || escolha == 'd') {
-        // Converter dólar para real
         float valorEmReal = valor * taxaCambio;
         printf("%.2f dolares equivalem a %.2f reais.\n", valor, valorEmReal);
 
 
     } else {
-        // Opção inválida
         printf("Escolha invalida. Por favor, insira R para real ou D para dolar.\n");
     }
 
