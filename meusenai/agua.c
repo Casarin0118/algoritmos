@@ -64,7 +64,7 @@ int main()
     }
 
     printf("\nSua casa ao todo gasta %d litros de agua.\n", soma);
-    printf("o valor total gasto com agua e = %.2f", valotTotal);
+    printf("o valor total gasto com agua e = R$%.2f", valotTotal);
 
     return 0;
 }
